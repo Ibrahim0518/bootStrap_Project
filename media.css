@@ -2,4 +2,7 @@
     .Appointment_bg_img,.investors_images {
         height: 400px !important    ;
     }
+    .white{
+        color:white;
+    }
 }
