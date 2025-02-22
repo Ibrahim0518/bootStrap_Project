@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HomePage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .Appointment_bg_img {
+      background: url("images/Appointment_img.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .icon_1{
+      width:2em;
+      height:2em;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sign UP</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="row g-3" action="" method="">
+            <div class="col-md-12">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-12">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary nav-link" href="" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid" style="background-color: #e3f2fd;">
+    <header
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3  border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0 navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">KM MultiSpeciality Hospital</a>
+      </div>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="About.html" class="nav-link px-2">About Us</a></li>
+        <li><a href="career.html" class="nav-link px-2">Career</a></li>
+        <li><a href="Contact_Us.html" class="nav-link px-2">Contact Us</a></li>
+        <li><a href="Investors.html" class="nav-link px-2">Investors</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2">
+          <a href="" type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+        </button>
+        <button type="button" class="btn btn-primary">
+          Sign_Up
+        </button>
+      </div>
+    </header>
+  </div>
+
+
+  <!-- Carousel Slide -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/image-1440x500.jpg (3).png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Appointment Available</h3>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/image-1440x500.jpg (1).png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="">Our New Plane</h3>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/image-1440x500.jpg (2).png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>24*7 Emergeny</h3>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container-fluid  marketing">
+
+
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Who we <span class="text-body-secondary">are</span></h2>
+          <p class="lead">
+            At <b>KM MultiSpeciality Hospital</b>, we are committed to delivering compassionate, high-quality
+            healthcare to our community.
+            With a team of highly skilled doctors, nurses, and medical professionals, we provide advanced medical
+            treatments, state-of-the-art technology, and patient-centered care.
+
+            Our mission is to promote health and well-being by offering exceptional medical services across a wide range
+            of specialties. Whether it’s preventive care, emergency treatment, or complex surgeries, we ensure every
+            patient receives personalized attention and the best possible care.
+          </p>
+        </div>
+
+        <div class="col-md-5">
+          <img src="/Images/freepik__expand__9986.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300"
+          height="300">
+          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+          </svg> -->
+        </div>
+      </div>
+      <hr class="featurette-divider">
+    </div>
+  </div>
+
+
+  <div class="container border ">
+    <div class="row mb-3 text-center">
+      <div class="col-md-8 themed-grid-col">
+        <div class="p-3">
+          <h2 class="featurette-heading fw-normal lh-1">Why Choose<span class="text-body-secondary"> Us</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 themed-grid-col">
+            <div class="feature">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3">
+                <img src="/icons/medical-team.png" alt="" class="bi icon_1" width="3rem" height="3rem">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Qualified Doctors</h3>
+              <p>A qualified doctor is a medical professional who has completed extensive education and training to
+                diagnose, treat, and prevent illnesses.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 themed-grid-col">
+            <div class="feature">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3">
+                <img src="/icons/emergency-call.png" alt="" class="icon_1" width="3rem" height="3rem">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Emergency Care</h3>
+              <p>Emergency care provides immediate medical attention to critically ill or injured patients. It focuses
+                on stabilizing conditions.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 themed-grid-col">
+            <div class="feature">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                <img src="/icons/24-hours.png" alt="" class="icon_1" width="3rem" height="3rem">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">24x7</h3>
+              <p>
+                A 24-hour hospital service ensures round-the-clock medical care for emergencies, inpatient treatment,
+                and essential healthcare needs.
+              </p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 themed-grid-col">
+            <div class="feature">
+              <div
+                class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                <img src="/icons/theater.png" alt="" class="icon_1" width="3rem" height="3rem">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Operation Theater</h3>
+              <p>An operation theater is a sterile, well-equipped medical facility where surgical procedures are
+                performed.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 themed-grid-col">
+        <img src="/Images/pexels-pavel-danilyuk-6753405 (1).jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- Special Doctors -->
+  <div class="contianer grid gap-3 mx-3 border">
+    <div class="row mb-3 text-center">
+      <div class="col-sm-12 col-lg-12 themed-grid-col">
+        <div class="bg-body-tertiary p-5 rounded">
+          <h1>Special Doctors</h1>
+          <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you
+            scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="row mb-3 text-center">
+      <div class="col-sm-12 col-lg-12 themed-grid-col">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 justify-content-md-center">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Images/Profile/Dr_1.jpg" alt="" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Images/Profile/Dr_2.jpg" alt="" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Images/Profile/Dr_3.jpg" alt="" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Application form -->
+  <div class="container">
+    <div class="row align-items-md-stretch">
+      <div class=" col-sm-12 col-md-6">
+        <div class="h-100 p-5 Appointment_bg_img rounded-3">
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+          <h2>Appointment</h2>
+          <div class="">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="validationDefault01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationDefault01" required>
+              </div>
+
+              <div class="col-md-6">
+                <label for="validationDefault02" class="form-label">Mobile No</label>
+                <input type="text" class="form-control" id="validationDefault02" required>
+              </div>
+              <div class="col-md-12">
+                <label for="validationDefaultUsername" class="form-label">Email_id</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                  <input type="email" class="form-control" id="validationDefaultUsername"
+                    aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="validationDefault04" class="form-label">Doctors</label>
+                <select class="form-select" id="validationDefault04" required>
+                  <option value="">Dr.Rajesh Kumar,MBBS,MS(ortho).,</option>
+                  <option value="">Dr.Venkatesh,MBBS.,</option>
+                  <option value="">Dr.KaniMozhi,BUMS.,</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefault03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationDefault03" required>
+              </div>
+              <div class="col-md-6">
+                <label for="validationDefault04" class="form-label">Time</label>
+                <select class="form-select" id="validationDefault04" required>
+                  <option selected disabled value="">11.00AM</option>
+                  <option value="">6.00PM</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="validationTextarea" class="form-label">Problems : </label>
+                  <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea"
+                    required></textarea>
+                  <div class="invalid-feedback">
+                    Please enter a message in the textarea.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Resent News -->
+  <div class="contianer grid gap-3 mx-3 border">
+    <div class="row mb-3 text-center">
+      <div class="col-sm-12 col-lg-12 themed-grid-col">
+        <div class="bg-body-tertiary p-5 rounded">
+          <h1>Special Doctors</h1>
+          <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you
+            scroll, this navbar remains in its original position and moves with the rest of the page.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="row mb-3 text-center">
+      <div class="col-sm-12 col-lg-12 themed-grid-col">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Images/freepik__expand__9986.jpg" alt="" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Images/freepik__expand__54359.jpg" alt="" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="/Images/service.jpg" alt="" width="100%" height="225">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    </footer>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
