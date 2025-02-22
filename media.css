@@ -1,0 +1,5 @@
+@media screen and (max-width:767px) {
+    .Appointment_bg_img,.investors_images {
+        height: 400px !important    ;
+    }
+}
