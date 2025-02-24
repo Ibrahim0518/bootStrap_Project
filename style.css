@@ -1,3 +1,49 @@
+:root {
+    --frost-white--: #E8f1f2;
+    --glacier-blue--: #A1C9D9;
+    --Arctic-Navy--: #274C77;
+    --Deep-Slate--: #3C6E71;
+    --Midnight-gray--: #353535;
+}
+
+.frost-white {
+    color: #E8f1f2 !important;
+
+}
+
+.glacier-blue {
+    color: #A1C9D9;
+
+}
+
+.Arctic-Navy {
+    color: #274C77;
+
+}
+
+.Deep-Slate {
+    color: #3C6E71;
+
+}
+
+.Midnight-gray {
+    color: #353535;
+
+}
+
+.link-secondary {
+
+}
+
+.Midnight-gray_bg{
+    background:#353535;
+}
+
+span.text-body-secondary {
+    color: #eb8b38 !important;
+    font-weight: 700;
+}
+
 /* index */
 
 .Appointment_bg_img {

@@ -5,4 +5,19 @@
     .white{
         color:white;
     }
+
+    .investor_ul_res
+    {
+        padding:0 !important;
+        margin:1rem !important;
+    }
+    .investor_li_res
+    {
+        margin:0 !important;
+    }
+    .investor_card_res
+    {
+        max-width:25rem !important;
+        margin:0 !important;
+    }
 }
