@@ -1,23 +1,44 @@
 @media screen and (max-width:767px) {
-    .Appointment_bg_img,.investors_images {
-        height: 400px !important    ;
-    }
-    .white{
-        color:white;
+
+    .Appointment_bg_img,
+    .investors_images {
+        height: 400px !important;
     }
 
-    .investor_ul_res
-    {
-        padding:0 !important;
-        margin:1rem !important;
+    .white {
+        color: white;
     }
-    .investor_li_res
-    {
-        margin:0 !important;
+
+    .investor_ul_res {
+        padding: 0 !important;
+        margin: 1rem !important;
     }
-    .investor_card_res
+
+    .investor_li_res {
+        margin: 0 !important;
+    }
+
+    .investor_card_res {
+        max-width: 25rem !important;
+        margin: 0 !important;
+    }
+}
+
+
+
+
+@media screen and (max-width:400px) 
     {
-        max-width:25rem !important;
-        margin:0 !important;
+    .Our_card {
+        height: 19rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 10px auto;
+        background: ghostwhite;
+        border-radius: 0.2rem;
+        box-shadow: 6px 7px 6px whitesmoke;
+        border: 1px solid #d7d6d6;
     }
 }
