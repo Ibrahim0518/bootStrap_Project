@@ -26,7 +26,11 @@
 
 }
 
-
+.image_scope{
+    background:url("/Images/pexels-pavel-danilyuk-6753405 (1).jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 .Midnight-gray {
     color: #353535;

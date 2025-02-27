@@ -27,8 +27,7 @@
 
 
 
-@media screen and (max-width:500px) 
-    {
+@media screen and (max-width:900px) {
     .Our_card {
         height: 19rem;
         display: flex;
@@ -40,5 +39,32 @@
         border-radius: 0.2rem;
         box-shadow: 6px 7px 6px whitesmoke;
         border: 1px solid #d7d6d6;
+    }
+}
+
+/* Example
+ Apply styles starting from medium devices and up to extra large devices */
+/* @media (768px <=width <=1000px) {
+    .col_meium_Device {
+        grid-template-columns: 1/span 12 !important;
+    }
+
+    .col_medium_device_image {
+        display: none !important;
+    }
+
+
+} */
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 992px) { 
+    /* Home Page Why Choose Us*/
+    .col_meium_Device{
+        width:100%;
+    }
+    .col_medium_device_image{
+        width:0%;
+        height:0%;
+        overflow:hidden;
     }
 }
